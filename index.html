@@ -8,6 +8,7 @@
         href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
         <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <title>Poem Generator</title>
 </head>
 <body>
@@ -20,12 +21,12 @@
 
         <main>
             <form id="poem-gen-form">
-                <input type="text" placeholder="Enter topic here"class="instructions" required  />
+                <input type="text" placeholder="Enter topic here" class="instructions" required  />
                 <input type="submit" class="submit-button">
             </form>
         </main>
-        <div class="poem" id="poem">
-            poem here
+        <div class="poem hidden" id="poem">
+            
         </div>
 
         <footer>Coded by <a href="https://github.com/GlitchCOW">Skye Palm</a></footer>

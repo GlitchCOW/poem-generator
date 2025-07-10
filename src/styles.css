@@ -1,5 +1,5 @@
 body{
-    background: #c6c1d3;
+    background: #b8b1c9;
     font-family: "Lexend";
 }
 .container{
@@ -18,7 +18,7 @@ form{
     display: flex;
     padding: 30px;
     margin-bottom: 30px;
-    box-shadow: 0px 20px 60px rgba(100, 80, 146, 0.08);
+    box-shadow: 0px 20px 60px rgba(249, 248, 250, 0.08);
     border-radius: 8px;
 }
 .instructions{

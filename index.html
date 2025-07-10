@@ -4,22 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <title>Poem Generator</title>
 </head>
 <body>
-    <h1>My Poem Generator</h1>
-    <main>
-        <form>
-            <input type="text" placeholder="Enter topic here">
-            <input type="submit">
-        </form>
-    </main>
-    <div>
-        poem here
+    <div class="container">
+        <header>
+        <h1>My Poem Generator</h1>
+        </header>
+
+
+
+        <main>
+            <form>
+                <input type="text" placeholder="Enter topic here"class="instructions" required  />
+                <input type="submit" class="submit-button">
+            </form>
+        </main>
+        <div class="poem">
+            poem here
+        </div>
+
+        <footer>Coded by <a href="https://github.com/GlitchCOW">Skye Palm</a></footer>
     </div>
-
-    <footer>Coded by Skye Palm</footer>
-
 
     <script src="src/script.js"></script>
 </body>
